@@ -10,12 +10,12 @@
         var now = new Date();
         // set app name & logo (used in loader, sidemenu, footer, login pages, etc)
         triSettingsProvider.setName('Observer Pattern');
-        triSettingsProvider.setCopyright('&copy;' + now.getFullYear() + ' oxygenna.com');
+        triSettingsProvider.setCopyright('&copy;' + now.getFullYear() + ' Group 2');
         triSettingsProvider.setLogo('assets/images/logo.png');
         // set current version of app (shown in footer)
-        triSettingsProvider.setVersion('2.6.2');
+        triSettingsProvider.setVersion('0.0.1');
         // set the document title that appears on the browser tab
-        triRouteProvider.setTitle('Triangular');
+        triRouteProvider.setTitle('Observer Pattern');
         triRouteProvider.setSeparator('|');
 
         // setup available languages in triangular
