@@ -16,6 +16,11 @@ button, select, html, textarea, input {
   font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif;
 }
 
+
+   .real-time .chart-container{
+    height: 120px !important;
+    }
+
 // import app scss
 
 @import "scss/material-backgrounds";

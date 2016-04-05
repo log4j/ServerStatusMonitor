@@ -25,11 +25,19 @@
         serverService.switchServer(serverService.serverList[0].id);
         
         
+        //update action
+        $scope.updateContent = function(){
+            $scope.serverCharts = serverService.serverCharts;
+        }
+        /**
+         * register $watch, 
+         * update when value changed
+         */
         $scope.$watch(function(){
             return serverService.serverUpdated;   
-        },function(){
-            $scope.serverCharts = serverService.serverCharts;
-        })
+        },$scope.updateContent)
+        
+        
         
         var vm = this;
      
