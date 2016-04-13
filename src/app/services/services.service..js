@@ -58,7 +58,7 @@
                 }
 
 
-                //fake data again: 
+                //fake data again:
                 this.serverCharts = getInitialData(server);
 
                 this.serverUpdated = new Date();
@@ -85,8 +85,6 @@
 
                 if (serverService.data[server])
                     return serverService.data[server];
-
-
 
                 var serverCharts = {
                     bandwidth: {
